@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BSUTrip</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+
+		<!-- jQuery (Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+
+		<!-- Custom Theme files -->
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+		<!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="Travelo">
+		<script type="application/x-javascript">
+			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+			function hideURLbar() { window.scrollTo(0,1); };
+		</script>
+
+		<!--webfont-->
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+		<link href="http://fonts.googleapis.com/css?family=Raleway:400,800,300,100,500,700,600,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+		<!--animated-css-->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+
+		<!--script-->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event) {		
+					event.preventDefault();
+					$('html,body').animate({ scrollTop:$(this.hash).offset().top }, 900);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="banner-bg">
+			<div class="banner">
+				<div class="header">	 
+					<div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+						<a href="index.html" class="logo">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 31.416 31.416" style="enable-background:new 0 0 31.416 31.416;" xml:space="preserve">
+								<g>
+									<g>
+										<path d="M28.755,6.968l-0.47,0.149L25.782,7.34l-0.707,1.129l-0.513-0.163L22.57,6.51l-0.289-0.934L21.894,4.58l-1.252-1.123    l-1.477-0.289l-0.034,0.676l1.447,1.412l0.708,0.834L20.49,6.506l-0.648-0.191L18.871,5.91l0.033-0.783l-1.274-0.524l-0.423,1.841    l-1.284,0.291l0.127,1.027l1.673,0.322l0.289-1.641l1.381,0.204l0.642,0.376h1.03l0.705,1.412l1.869,1.896l-0.137,0.737    l-1.507-0.192l-2.604,1.315l-1.875,2.249l-0.244,0.996h-0.673l-1.254-0.578l-1.218,0.578l0.303,1.285l0.53-0.611l0.932-0.029    l-0.065,1.154l0.772,0.226l0.771,0.866l1.259-0.354l1.438,0.227l1.67,0.449l0.834,0.098l1.414,1.605l2.729,1.605l-1.765,3.372    l-1.863,0.866l-0.707,1.927l-2.696,1.8l-0.287,1.038c6.892-1.66,12.019-7.851,12.019-15.253    C31.413,12.474,30.433,9.465,28.755,6.968z"/>
+										<path d="M17.515,23.917l-1.144-2.121l1.05-2.188l-1.05-0.314l-1.179-1.184l-2.612-0.586l-0.867-1.814v1.077h-0.382l-2.251-3.052    v-2.507L7.43,8.545L4.81,9.012H3.045L2.157,8.43L3.29,7.532L2.16,7.793c-1.362,2.326-2.156,5.025-2.156,7.916    c0,8.673,7.031,15.707,15.705,15.707c0.668,0,1.323-0.059,1.971-0.137l-0.164-1.903c0,0,0.721-2.826,0.721-2.922    C18.236,26.357,17.515,23.917,17.515,23.917z"/>
+										<path d="M5.84,5.065l2.79-0.389l1.286-0.705l1.447,0.417l2.312-0.128l0.792-1.245l1.155,0.19l2.805-0.263L19.2,2.09l1.09-0.728    l1.542,0.232l0.562-0.085C20.363,0.553,18.103,0,15.708,0C10.833,0,6.474,2.222,3.596,5.711h0.008L5.84,5.065z M16.372,1.562    l1.604-0.883l1.03,0.595l-1.491,1.135l-1.424,0.143l-0.641-0.416L16.372,1.562z M11.621,1.691l0.708,0.295l0.927-0.295    l0.505,0.875l-2.14,0.562l-1.029-0.602C10.591,2.526,11.598,1.878,11.621,1.691z"/>
+									</g>
+								</g>
+							</svg>
+						</a>
+					</div>
+
+					<div class="top-menu">	 
+						<ul class="cl-effect-1">
+							<li><a class="scroll" href="#home">HOME</a></li>
+							<li><a class="scroll" href="#brief">BRIEF</a></li>
+							<li><a class="scroll" href="#features">FEATURES</a></li>
+							<li><a class="scroll" href="#screenshots">TOURS</a></li>
+							<li><a class="scroll" href="#testimonial">TESTIMONIAL</a></li>
+							<li><a class="scroll" href="#contact">CONTACT</a></li>
+						</ul>
+						<span class="menu"></span>
+					</div>
+
+					<!-- script-for-menu -->
+					<script>
+						$( "span.menu" ).click(function() {
+							$( "ul.cl-effect-1" ).slideToggle(300, function() {
+								// Animation complete.
+							});
+						});
+					</script>			 
+				</div>
+
+				<div class="banner-text wow fadeInUp" data-wow-delay="0.5s">
+					<h1>Plan and <span>Book</span><br>Your Perfect Trip</h1>
+					<p class="description">Travel agency website</p>
+					<a href="#contact">To plan and book</a>
+				</div>
+			
+				<script>
+					$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});																				
+					});
+				</script>	
+			</div>
+		</div>
+		<div id="brief" class="brief">
+			<div class="brief-grids wow fadeInLeft" data-wow-delay="0.5s">
+				<img src="images/browse.jpg" alt=""/>
+				<div class="brief-grid">
+					<div class="brief-grid-text">
+						<h3>Travel documents</h3>
+						<p>You can forget about the headache with the documents and rely on us, we will solve all the questions on them ourselves. That's easy for you and isn't hard for us.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="brief-grids wow fadeInRight" data-wow-delay="0.5s">
+				<img src="images/browse2.jpg" alt=""/>
+				<div class="brief-grid">
+					<div class="brief-grid-text">
+						<h3>What we are provide</h3>
+						<p>We provide a huge variety of tours for each person individually, based on their preferences and tastes, in order to make their vacation as colorful and unforgettable as possible.</p>
+					</div>
+				</div>
+			</div>		 
+		</div>
+
+		<div id="features" class="features">
+			<div class="feature-text text-center">
+				<h3>Features</h3>
+				<p>The most important advantages of our agency</p>
+			</div>
+			<div class="features-section">
+				<div class="col-md-6 feature-grid text-center">
+					<i class="f1 wow bounceIn" data-wow-delay="0.5s"></i>
+					<h3>Easy to Customize</h3>
+					<p>We easily adapt to the preferences and tastes of our client and can present him with a tour of his dreams, leaving unforgettable memories in the future.</p>
+				</div>
+				<div class="col-md-6 feature-grid text-center">
+					<i class="f2 wow bounceIn" data-wow-delay="0.5s"></i>
+					<h3>Travel Documents</h3>
+					<p>The easiest way to process all the documents without headaches and worries, your vacation begins when you contact us.</p>
+				</div>
+				<div class="col-md-6 feature-grid text-center">
+					<i class="f3 wow bounceIn" data-wow-delay="0.5s"></i>
+					<h3>Visa Support</h3>
+					<p>We will solve the issue of issuing a visa card for you in order to solve the issue of finances during your vacation and problems with currency exchange.</p>
+				</div>
+
+				<div class="col-md-6 feature-grid text-center">
+					<i class="f4 wow bounceIn" data-wow-delay="0.5s"></i>
+					<h3>Consultation</h3>
+					<p>If you have any questions, you can contact us. We will be happy to answer you and save you from them. Don't worry, it's absolutely free.</p>
+				</div>
+			</div>
+		</div>
+
+		<link href="css/popup-box.css" rel="stylesheet" type="text/css" media="all"/>
+		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+				});
+			});
+		</script>
+
+		<div id="screenshots" class="screenshots">
+			<div class="screen-text text-center">
+				<h3>Resent Tours</h3>
+				<p>List of the most popular recent tours</p>
+			</div>
+
+			<!-- requried-jsfiles-for owl -->
+			<link href="css/owl.carousel.css" rel="stylesheet">
+			<script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo").owlCarousel({
+						items : 1,
+						lazyLoad : true,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+
+			<!-- //requried-jsfiles-for owl -->
+			<div id="owl-demo" class="owl-carousel">
+				<div class="item text-center guide-sliders">
+					<div class="image-grid">
+						<img src="images/sc1.jpg">					 
+					</div>
+					<div class="image-grid">
+						<img src="images/sc2.jpg">					 
+					</div>
+					<div class="image-grid">
+						<img src="images/sc3.jpg">					 
+					</div>				   
+				</div>			  
+				<div class="item text-center guide-sliders">
+					<div class="image-grid">
+						<img src="images/sc4.jpg">					 
+					</div>
+					<div class="image-grid">
+						<img src="images/sc9.jpg">					 
+					</div>
+					<div class="image-grid">
+						<img src="images/sc5.jpg">					 
+					</div>						
+				</div>
+				<div class="item text-center guide-sliders">
+					<div class="image-grid">
+						<img src="images/sc7.jpg">					 
+					</div>
+					<div class="image-grid">
+						<img src="images/sc6.jpg">					 
+					</div>
+					<div class="image-grid">
+						<img src="images/sc8.jpg">					 
+					</div>						
+				</div>
+			</div>
+		</div>
+		
+		<div id="testimonial" class="trusted">
+			<div class="trusted-text text-center">
+				<h3>Trusted by Thousands</h3>
+				<p>We have a huge number of satisfied customers</p>
+			</div>
+			<div class="box-flex">
+				<div class="client wow fadeInLeft review" data-wow-delay="0.5s">
+					<span></span>
+					<div class="box">
+						<p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. 
+						Social bookmarking group buying crowded market pivot onboarding.</p>
+					</div>
+					<div class="author">
+						<h4><a href="#">Yuri Poznyak aka Boss</a></h4>
+						<p class="ceo">Wolfram Research</p>
+					</div>
+				</div>
+				<div class="client wow fadeInUp review" data-wow-delay="0.5s">
+					<span></span>
+					<div class="box">
+						<p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. 
+						Social bookmarking group buying crowded market pivot onboarding.</p>
+					</div>
+					<div class="author">
+						<h4><a href="#">Vladislav Paper</a></h4>
+						<p class="ceo">Web Inc.</p>
+					</div>
+				</div>
+				<div class="client wow fadeInRight review" data-wow-delay="0.5s">
+					<span></span>
+					<div class="box">
+						<p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. 
+						Social bookmarking group buying crowded market pivot onboarding.</p>
+					</div>	
+					<div class="author">
+						<h4><a href="#">Yuri Cash</a></h4>
+						<p class="ceo">C++ Inc.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="get-started">
+			<div class="container">
+				<h4 class="wow bounceInLeft" data-wow-delay="0.5s">We Ready  to Help You</h4>
+				<h3 class="wow bounceInRight" data-wow-delay="0.5s">Get the Best Solution for Your Tour</h3>
+				<a href="#">GET STARTED</a>
+			</div>
+		</div>
+		
+		<div id="contact" class="contact">
+			<div class="container">
+				<div class="contact-text text-center">
+					<h3>Contact</h3>
+					<p>If you still have questions please ask them below</p>
+				</div>
+				<div class="contact-form">
+					<form>
+						<div class="col-md-6 text-box">
+							<form>
+								<input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" placeholder="Name" required="required"/>
+								<input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" placeholder="Email" required="required" pattern="([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?" />
+								<input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" placeholder="Subject" required="required" />
+							</form>
+						</div>
+						<div class="col-md-6 textarea">
+							<form>
+								<textarea class="wow fadeInRight" data-wow-delay="0.5s" required="required" placeholder="Message"></textarea>
+								<input class="wow fadeInRight" data-wow-delay="0.5s" type="submit" value="SUBMIT" />
+							</form>
+						</div>
+						<div class="clearfix"> </div>					  
+					</form>
+				</div>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d118560.66194971421!2d-48.15623890000003!3d-21.77946039999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1426765295728" frameborder="0" style="border:0"></iframe>
+				</div>
+			</div>	  
+		</div>
+		
+		<div class="footer">
+			<div class="ftr-logo">
+				<a href="index.html" class="footer-logo logo">BSUTrip</a>
+			</div>
+			<div class="copy-right wow bounceInUp" data-wow-delay="0.5s">
+				<p>Copyright &#169; 2021 BSUTrip. All Rights Reserved.</p>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+				};
+				*/
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+
+		<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</body>
+ </html>
